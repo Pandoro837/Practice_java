@@ -25,7 +25,19 @@ public class Ex17 {
 				}
 			}
 		}
-		
+		for(int i = 1; i < iNum; i++) {
+			for(int iSpace = 0; iSpace < i; iSpace ++) {
+				System.out.print(" ");
+				
+			}
+			for(int iX = 1; iX <= iNum - i; iX++) {
+				if(iX == iNum - i) {
+					System.out.println("*");
+				} else {
+					System.out.print("**");
+				}
+			}
+		}
 		
 		
 	}
