@@ -17,7 +17,7 @@ public class NutritionFactsApp {
 		List<Double> dList = new ArrayList<Double> ();
 		
 		String yogurtInfo = new String();
-		
+		 
 		while(true) {
 			int y = 0;
 			yogurtInfo = br.readLine();
